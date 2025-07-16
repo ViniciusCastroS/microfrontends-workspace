@@ -1,0 +1,9 @@
+[submodule "shell"]
+	path = shell
+	url = https://github.com/ViniciusCastroS/shell-mf.git
+[submodule "angular-mf"]
+	path = angular-mf
+	url = https://github.com/ViniciusCastroS/angular-mf.git
+[submodule "react-mf"]
+	path = react-mf
+	url = https://github.com/ViniciusCastroS/react-mf.git
