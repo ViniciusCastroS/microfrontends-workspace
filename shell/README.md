@@ -2,7 +2,7 @@
 
 Esta é a aplicação shell que carrega e gerencia os microfrontends via Module Federation.
 
-## 🚀 Funcionalidades
+## Funcionalidades
 
 - Carrega microfrontends Angular (porta 4201)
 - Carrega microfrontends React (porta 3001)
@@ -28,7 +28,7 @@ ng serve
 
 A aplicação estará disponível em `http://localhost:4200`
 
-## �� Microfrontends Conectados
+## Microfrontends Conectados
 
 ### Angular Microfrontend
 - **URL**: `http://localhost:4201`
@@ -89,7 +89,7 @@ O build será gerado na pasta `dist/`.
 - Angular CLI
 - NPM ou Yarn
 
-## ⚠️ Observações Importantes
+## Observações Importantes
 
 1. Certifique-se que os microfrontends estejam rodando antes de iniciar o shell
 2. Para desenvolvimento local:
