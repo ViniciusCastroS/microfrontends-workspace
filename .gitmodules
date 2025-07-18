@@ -7,3 +7,6 @@
 [submodule "react-mf"]
 	path = react-mf
 	url = https://github.com/ViniciusCastroS/react-mf.git
+[submodule "shell-mf"]
+	path = shell-mf
+	url = https://github.com/ViniciusCastroS/shell-mf.git
