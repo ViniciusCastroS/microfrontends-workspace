@@ -1,5 +1,17 @@
 {
+  "name": "microfrontends-workspace",
+  "version": "1.0.0",
+  "description": "Workspace demonstrando arquitetura de microfrontends com React Shell, Angular MF e React MF",
+  "scripts": {
+    "start": "concurrently \"npm run start:shell\" \"npm run start:angular\" \"npm run start:react\"",
+    "start:shell": "cd shell-mf && npm start",
+    "start:angular": "cd angular-mf && npm start",
+    "start:react": "cd react-mf && npm start",
+    "install:all": "cd shell-mf && npm install && cd ../angular-mf && npm install && cd ../react-mf && npm install",
+    "build:all": "cd shell-mf && npm run build && cd ../angular-mf && npm run build && cd ../react-mf && npm run build"
+  },
   "devDependencies": {
+    "concurrently": "^7.6.0",
     "webpack-cli": "^6.0.1"
   }
 }
